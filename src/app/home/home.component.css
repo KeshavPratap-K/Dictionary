@@ -1,0 +1,60 @@
+
+* {
+  box-sizing: border-box;
+}
+
+input, textarea, select {
+  font: 16px "Libre Baskerville";
+}
+
+
+
+strong {
+  font-weight: 700;
+}
+
+em {
+  font-style: italic;
+}
+
+aside.context {
+  text-align: center;
+  line-height: 1.7;
+}
+aside.context a {
+  text-decoration: none;
+  padding: 3px 0;
+  border-bottom: 1px dashed;
+}
+aside.context a:hover {
+  border-bottom: 1px solid;
+}
+aside.context .explanation {
+  max-width: 700px;
+  margin: 7em auto 0;
+}
+
+header {
+  max-width: 700px;
+  margin: 3em auto;
+  font: 24px/1.5 "Libre Baskerville";
+  text-align: center;
+  padding: 0 20px;
+}
+header p {
+  margin-bottom: 15px;
+}
+
+main {
+  position: relative;
+  margin: 5em auto;
+  padding: 0 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+

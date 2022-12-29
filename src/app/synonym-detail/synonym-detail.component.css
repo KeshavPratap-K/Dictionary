@@ -1,0 +1,76 @@
+input[type=button] {
+  margin: 40px 0 0;
+  background: #8e1a1a;
+  border: 0;
+  border-radius: 6px;
+  color: #fff;
+  padding: 15px;
+  font-size: 20px;
+  min-width: 200px;
+  cursor: pointer;
+  outline: none;
+}
+#save-image {
+  position: absolute;
+  bottom: -20px;
+  right: 10%;
+  padding: 15px 25px;
+  transform: rotate(-5deg);
+  transition: 0.2s ease;
+}
+#save-image:hover {
+  transform: rotate(5deg);
+}
+
+.design {
+  background: #f6f6f6;
+  width: 550px;
+  border: 1px solid #ddd;
+  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1), 0 5px 20px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  overflow: visible !important;
+  color: #000;
+}
+.design .alphabet {
+  text-align: right;
+  font-weight: 700;
+  font-size: 34px;
+  text-transform: capitalize;
+  letter-spacing: 2px;
+}
+.design section {
+  padding: 0 35px;
+  margin-top: 6em;
+}
+.design .word {
+  font: 700 45px/0.9 "Libre Baskerville", serif;
+  word-break: break-all;
+}
+.design .type {
+  font: italic 500 28px "Libre Baskerville", serif;
+  margin: 10px 0;
+}
+.design .context {
+  margin: 25px 0;
+  width: 90%;
+}
+.design .image {
+  font-style: italic;
+  text-align: center;
+  margin: 3em 0;
+  width: 100%;
+  overflow: hidden;
+
+}
+.design .image #imager {
+  width: auto;
+  height: 300px;
+  border: 1px solid;
+  margin: auto;
+  position: relative;
+  border-color: #0000001a;
+}
+.design .image p {
+  display: block;
+  margin-top: 8px;
+}

@@ -1,0 +1,25 @@
+
+footer {
+  text-align: center;
+  margin: 2em auto;
+  width: 100%;
+}
+footer a {
+  text-decoration: none;
+  display: inline-block;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  background: #fff;
+  color: #000;
+  margin: 5px;
+}
+footer a:hover {
+  background: #267ba4;
+  color: #fff;
+}
+footer a .icons {
+  margin-top: 12px;
+  display: inline-block;
+  font-size: 20px;
+}
