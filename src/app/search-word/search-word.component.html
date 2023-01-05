@@ -1,10 +1,18 @@
-<form class="inputs" autocomplete="off">
+<form [formGroup]="onSubmitForm" class="inputs" autocomplete="off" (ngSubmit)="onSubmit()">
   <h2>Fill up this form!</h2>
   <div class="input__wrapper">
-    <input class="js-mirror" id="word" type="text" maxlength="20" required="required" data-destination="word"/>
+    <input class="js-mirror" id="word" type="text" required="required" data-destination="word" formControlName="searchWord"/>
     <label>Word You're "Searching"</label>
-    <div class="wrapper-button">
-      <input class="btn" id="save-image" type="submit" value="Search"/>
+    <div style="display: flex;">
+      <div class="wrapper-button">
+        <input class="btn" id="save-image" type="submit" value="Search"/>
+      </div>
+      <div>
+        <select class="form-select" name="language" id="languageDropDown" formControlName="searchWordLanguage">
+          <option value="en-gb">EN</option>
+          <option value="en-us">EN-US</option>
+        </select>
+      </div>
     </div>
   </div>
 

@@ -8,6 +8,10 @@ import { HomeComponent } from './home/home.component';
 import { FooterComponent } from './footer/footer.component';
 import { SearchWordComponent } from './search-word/search-word.component';
 import { SynonymDetailComponent } from './synonym-detail/synonym-detail.component';
+import { ReactiveFormsModule  } from '@angular/forms';
+import { HttpClientModule } from '@angular/common/http';
+
+
 
 @NgModule({
   declarations: [
@@ -16,11 +20,15 @@ import { SynonymDetailComponent } from './synonym-detail/synonym-detail.componen
     HomeComponent,
     FooterComponent,
     SearchWordComponent,
-    SynonymDetailComponent
+    SynonymDetailComponent,
+
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    ReactiveFormsModule,
+    HttpClientModule
+
   ],
   providers: [],
   bootstrap: [AppComponent]
